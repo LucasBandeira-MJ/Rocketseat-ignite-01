@@ -1,7 +1,12 @@
-export const Post = () => {
+export const Post = ({author, content}) => {
     return (
-        <h1>
-            Post
-        </h1>
+        <div>
+            <h1>
+                {author}
+            </h1>
+            <p>
+                {content}
+            </p>
+        </div>
     )
 }
